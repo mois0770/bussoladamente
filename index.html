@@ -35,7 +35,10 @@ a { color: var(--azul); }
 .conteudo { max-width: 1040px; margin: 0 auto; padding: 0 16px; }
 
 /* Topo */
-.topo { background: var(--azul); border-bottom: 6px solid var(--dourado); color: var(--creme); }
+.topo { background: var(--azul); border-bottom: 6px solid var(--dourado); color: var(--creme); position: relative; }
+/* Selo no canto direito do topo: altura da letra maiúscula do título */
+.selo { position: absolute; top: 1rem; right: 1rem; height: calc(clamp(2.3rem, 6vw, 3.4rem) * .72); width: auto; }
+@media (max-width: 600px) { .selo { top: .6rem; right: .6rem; } }
 .topo .conteudo { padding-top: 3.2rem; padding-bottom: 3rem; text-align: center; }
 .marca { display: inline-flex; align-items: center; gap: .8rem; }
 .marca svg { width: 64px; height: 64px; flex: none; }
@@ -118,6 +121,7 @@ a { color: var(--azul); }
 <body>
 
 <header class="topo">
+  <img class="selo" src="mashiach.png" alt="Coroa com a palavra Mashiach em hebraico">
   <div class="conteudo">
     <div class="marca">
       <svg viewBox="0 0 64 64" aria-hidden="true">
