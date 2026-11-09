@@ -21,6 +21,13 @@ a { color: var(--azul); }
 .topo .conteudo { padding-top: 1rem; padding-bottom: 1rem; }
 .topo a { color: var(--creme); text-decoration: none; font-family: "Source Serif 4", Georgia, serif;
           font-weight: 700; font-size: 1.3rem; }
+.topo .barra { display: flex; align-items: center; justify-content: space-between; gap: .8rem; flex-wrap: wrap; }
+.topo a.botao-inicio, a.botao-inicio { font-family: "Source Sans 3", system-ui, sans-serif; font-weight: 600; font-size: .95rem;
+          border: 1px solid var(--dourado); border-radius: 999px; padding: .35rem .95rem; white-space: nowrap; }
+.topo a.botao-inicio:hover { background: var(--dourado); color: var(--azul); }
+.fim-pagina { text-align: center; margin: -0.6rem 0 2rem; }
+.fim-pagina a.botao-inicio { color: var(--azul); text-decoration: none; display: inline-block; }
+.fim-pagina a.botao-inicio:hover { background: var(--dourado); }
 .conteudo { max-width: 800px; margin: 0 auto; padding: 0 16px; }
 main { background: var(--cartao); border: 1px solid var(--borda); border-radius: 14px;
        padding: 1.6rem 1.8rem 2rem; margin: 2rem auto; }
@@ -40,7 +47,7 @@ li { margin: .3rem 0; }
 </head>
 <body>
 
-<header class="topo"><div class="conteudo"><a href="index.html">🧭 Bússola da Mente</a></div></header>
+<header class="topo"><div class="conteudo barra"><a href="index.html">🧭 Bússola da Mente</a><a class="botao-inicio" href="index.html">← Página inicial</a></div></header>
 
 <div class="conteudo">
 <main>
@@ -157,6 +164,7 @@ li { margin: .3rem 0; }
   <h2>16. Contato</h2>
   <p>Dúvidas, pedidos e reclamações: <a href="mailto:contato@bussoladamente.com.br">contato@bussoladamente.com.br</a>. Respondemos em até 5 dias úteis. Este é também o contato do encarregado pelo tratamento de dados (veja a <a href="privacidade.html">Política de Privacidade</a>).</p>
 </main>
+<p class="fim-pagina"><a class="botao-inicio" href="index.html">← Voltar à página inicial</a></p>
 </div>
 
 <footer class="rodape">
