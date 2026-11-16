@@ -65,7 +65,7 @@ thead th { background: var(--pergaminho-escuro); color: var(--azul); }
 <div class="conteudo">
 <main>
   <h1>Política de Privacidade</h1>
-  <p class="data">Versão 3 · Última atualização: 10/11/2026</p>
+  <p class="data">Versão 3 · Última atualização: 16/11/2026</p>
 
   <p>Esta Política explica quais dados o site Bússola da Mente, o <strong>Mentor</strong> e o <strong>Parceiro</strong> tratam, por que, com que base legal, com quem os compartilham e quais são os seus direitos. Ela segue a Lei Geral de Proteção de Dados (LGPD, Lei 13.709/2018). Os serviços são oferecidos somente a residentes no Brasil.</p>
 
@@ -73,7 +73,7 @@ thead th { background: var(--pergaminho-escuro); color: var(--azul); }
     <strong>Em resumo</strong>
     <ul>
       <li>Para criar a sua conta, pedimos só um e-mail e uma senha. Não pedimos nome, telefone ou endereço.</li>
-      <li>Não gravamos as suas conversas. Para gerar cada resposta, elas passam pelos provedores de inteligência artificial listados na seção 5, nos Estados Unidos.</li>
+      <li>Por padrão, não gravamos as suas conversas (no Mentor, você pode pedir que as suas consultas sejam guardadas). Para gerar cada resposta, elas passam pelos provedores de inteligência artificial listados na seção 5, nos Estados Unidos.</li>
       <li>Antes do primeiro uso, pedimos o seu consentimento específico para tratar dados sensíveis, como religião e saúde.</li>
       <li>Não vendemos seus dados e não os usamos para publicidade.</li>
     </ul>
@@ -119,7 +119,7 @@ thead th { background: var(--pergaminho-escuro); color: var(--azul); }
   <h2>4. Como as conversas são tratadas e por quanto tempo guardamos os dados</h2>
   <ul>
     <li><strong>Conversas e mapa:</strong> por padrão, nem o Mentor nem o Parceiro gravam as conversas em banco de dados (a exceção é a opção "Lembrar minhas consultas" do Mentor, no item seguinte). Elas ficam apenas na memória temporária da sessão, no servidor do app, enquanto a página está aberta, e são apagadas quando você começa uma nova conversa, fecha a página ou a sessão expira. O mapa do Parceiro segue a mesma regra. Se você baixar uma conversa, o arquivo fica só no seu aparelho.</li>
-    <li><strong>Passagem pelos provedores de IA:</strong> para gerar cada resposta, as mensagens são enviadas aos provedores da seção 5, que as tratam conforme as próprias políticas de retenção. Segundo essas políticas, a OpenRouter não guarda o conteúdo das mensagens, a menos que o registro seja ativado na conta, o que não fazemos; a Anthropic apaga os dados recebidos por API em até 30 dias, salvo conteúdo sinalizado por violar as suas regras de uso (até 2 anos) ou quando a lei exigir; a OpenAI guarda registros para monitorar abusos por até 30 dias. No Parceiro, a busca é feita pela Parasail ou pela DeepInfra, que, segundo a OpenRouter, não guardam os dados enviados.</li>
+    <li><strong>Passagem pelos provedores de IA:</strong> para gerar cada resposta, as mensagens são enviadas aos provedores da seção 5, que as tratam conforme as próprias políticas de retenção. Segundo essas políticas, a OpenRouter não guarda o conteúdo das mensagens, a menos que o registro seja ativado na conta, o que não fazemos; a Anthropic apaga os dados recebidos por API em até 30 dias, salvo conteúdo sinalizado por violar as suas regras de uso (até 2 anos) ou quando a lei exigir. A busca nos textos selecionados é feita pela Voyage AI, da MongoDB, no Mentor, e pelo Google, no Parceiro, que tratam o texto enviado conforme as próprias políticas.</li>
     <li><strong>Consultas guardadas</strong> (só com "Lembrar minhas consultas" ligado, no Mentor): até você desligar a opção, o que as apaga na hora, ou até a exclusão da conta. O registro de quando você ligou ou desligou a opção segue o prazo do registro do aceite.</li>
     <li><strong>Avaliações do Mentor</strong> (com a pergunta e a resposta avaliadas): guardadas por até 2 anos ou até você pedir a exclusão.</li>
     <li><strong>Conta:</strong> enquanto existir. Contas sem acesso por 12 meses podem ser excluídas, com tudo o que estiver ligado a elas.</li>
@@ -137,7 +137,7 @@ thead th { background: var(--pergaminho-escuro); color: var(--azul); }
     <tbody>
       <tr><td>OpenRouter, Inc.</td><td data-rotulo="Recebe">As mensagens e os textos de apoio de cada resposta; no Parceiro, também o mapa</td><td data-rotulo="Para quê">Encaminhar as mensagens aos modelos de IA</td><td data-rotulo="Onde">Estados Unidos</td></tr>
       <tr><td>Anthropic, PBC, inclusive pela infraestrutura da Amazon Web Services</td><td data-rotulo="Recebe">O mesmo conteúdo, repassado pela OpenRouter</td><td data-rotulo="Para quê">Gerar as respostas (modelo Claude), no Mentor e no Parceiro</td><td data-rotulo="Onde">Estados Unidos</td></tr>
-      <tr><td>OpenAI, L.L.C. (Mentor) e Parasail, Inc. ou DeepInfra, Inc. (Parceiro), pela OpenRouter</td><td data-rotulo="Recebe">O texto das suas mensagens</td><td data-rotulo="Para quê">Apenas a busca nos textos selecionados; não geram as respostas</td><td data-rotulo="Onde">Estados Unidos</td></tr>
+      <tr><td>MongoDB, Inc. (Voyage AI, no Mentor) e Google LLC (no Parceiro), pela OpenRouter</td><td data-rotulo="Recebe">O texto das suas mensagens</td><td data-rotulo="Para quê">Apenas a busca nos textos selecionados; não geram as respostas</td><td data-rotulo="Onde">Estados Unidos</td></tr>
       <tr><td>Snowflake Inc. (Streamlit Community Cloud)</td><td data-rotulo="Recebe">Dados técnicos de acesso e o tráfego dos apps; no Parceiro, as contas de acesso criadas antes do login por e-mail (senha como hash)</td><td data-rotulo="Para quê">Hospedar os apps</td><td data-rotulo="Onde">Estados Unidos</td></tr>
       <tr><td>Supabase, Inc.</td><td data-rotulo="Recebe">As contas dos dois apps (e-mail e senha como hash), os registros de aceite, a contagem de uso e, se você ligar "Lembrar minhas consultas" no Mentor, as consultas guardadas</td><td data-rotulo="Para quê">Banco de dados</td><td data-rotulo="Onde">Estados Unidos</td></tr>
       <tr><td>Resend, Inc.</td><td data-rotulo="Recebe">O seu e-mail e o código enviado a ele</td><td data-rotulo="Para quê">Enviar os e-mails de serviço (confirmação da conta e nova senha)</td><td data-rotulo="Onde">Estados Unidos</td></tr>
