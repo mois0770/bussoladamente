@@ -1,0 +1,5 @@
+Contact: mailto:contato@bussoladamente.com.br
+Expires: 2027-11-24T00:00:00.000Z
+Preferred-Languages: pt, en, es
+Canonical: https://bussoladamente.com.br/.well-known/security.txt
+Policy: https://bussoladamente.com.br/privacidade.html
